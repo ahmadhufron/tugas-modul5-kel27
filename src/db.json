@@ -9,7 +9,7 @@
         {
             "id": 2,
             "nama": "Alfa Husni Mubarok",
-            "nim": "211201181400xx",
+            "nim": "21120118130064",
             "teks": "Siiiiip!!!"
         }
     ],
@@ -20,7 +20,7 @@
             "img_src":"https://www.enjpg.com/img/2020/black-clover-26.jpg",
             "id":"1",
             "deskripsi": {
-                "produksi" :"xxx company",
+                "produksi" :"Studio Pierrot",
                 "sinopsis":"Asta adalah seorang anak muda yang bermimpi menjadi penyihir terhebat di kerajaan. Tapi dia punya satu masalah, dia tidak bisa menggunakan sihir. Nasib baik menghampirinya karena mendapatkan Grimoire lima daun yang sangat langka \"Black Clover\" yang memberinya kekuatan anti-sihir. "
             }
         },
@@ -30,7 +30,7 @@
             "img_src":"https://wallpaperaccess.com/full/17350.jpg",
             "id":"2",
             "deskripsi": {
-                "produksi" :"xxx company",
+                "produksi" :"Studio Production I.G.",
                 "sinopsis":"Inilah awal dari era bajak laut, semua orang bermimpi menemukan One Piece (yang mana menjanjikan harta dan tahta yang tak terhingga jumlahnya), dan tentunya merebut gelar dari orang yang pertama menemukannya, gelar Raja Bajak Laut. Monkey D Luffy."
             }
         },
@@ -40,7 +40,7 @@
             "img_src":"https://c4.wallpaperflare.com/wallpaper/186/803/587/anime-haikyu-wallpaper-preview.jpg",
             "id":"3",
             "deskripsi": {
-                "produksi" :"xxx company",
+                "produksi" :"Studio Production I.G.",
                 "sinopsis":"Anime Haikyuu!! To The Top menceritakan kelanjutan dari cerita anime Haikyuu musim sebelumnya anime ini"
             }
         },
@@ -50,7 +50,7 @@
             "img_src":"https://cdn-2.tstatic.net/kaltim/foto/bank/images/nonton-boruto-192-jadwal-rilis-boruto-naruto-next-generations-di-april-2021-bocoran-boruto-193.jpg",
             "id":"4",
             "deskripsi": {
-                "produksi" :"xxx company",
+                "produksi" :"Studio Pierrot",
                 "sinopsis":"Boruto Uzumaki sering menjadi pusat perhatian sebagai putra Hokage Ketujuh. Meskipun mewarisi perilaku Naruto yang keras dan keras kepala, Boruto dianggap ajaib dan mampu melepaskan potensinya dengan bantuan teman dan keluarga yang mendukung."
             }
         },
@@ -60,7 +60,7 @@
             "img_src":"https://cdn.idntimes.com/content-images/duniaku/post/20191007/00-shadowverse-anime-92d5f4cdcb6a542ce2bcb8fa78f20453_600x400.jpg",
             "id":"5",
             "deskripsi": {
-                "produksi" :"xxx company",
+                "produksi" :"Studio ZEXCS",
                 "sinopsis":"Serial Adaptasi dari Game dengan Judul yang Sama"
             }
         }
