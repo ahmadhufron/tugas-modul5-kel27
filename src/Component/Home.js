@@ -23,7 +23,7 @@ export default class Home extends Component {
     componentDidMount() {
         axios({
             method: "get",
-            url: "http://localhost:3001/anggota",
+            url: "http://localhost:3000/anggota",
             headers: {
                 accept: "*/*",
             },
@@ -46,7 +46,7 @@ export default class Home extends Component {
                 <h1 style={{ textAlign: "center" }}>Tugas Modul 5 Kelompok 27</h1>
                 <h2 style={{ textAlign: "center" }}>Anggota Kelompok</h2>
 
-                <Grid container direction={'column'} md={9} spacing={5} style={{ marginTop: "50px", marginLeft: "530px", marginRight: "auto", textAlign: "center" }}>
+                <Grid container direction={'column'} md={6} spacing={5} style={{ marginTop: "50px", marginLeft: "570px", marginRight: "auto", textAlign: "center" }}>
 
                     {this.state.anime27.map((results, index) => {
                         return (

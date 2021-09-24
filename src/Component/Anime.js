@@ -32,7 +32,7 @@ export default function Anime() {
     useEffect(() => {
         axios({
             method: "get",
-            url: "http://localhost:3001/anime",
+            url: "http://localhost:3000/anime",
             headers: {
                 accept: "*/*",
             },
@@ -64,12 +64,14 @@ export default function Anime() {
                                         image={results.img_src}
                                     />
                                     <CardContent style={{ backgroundColor: '#66FF99' }}>
+                                        <center>
                                         <Typography variant="h6" style={{ color: 'white',
                                     textShadowColor: 'rgba(0, 0, 0, 0)',
                                     textShadowOffset: '{width: -1, height: 1}',
                                     textShadowRadius: '10'
                                    }}>{results.judul}</Typography>
                                         <Typography variant="h6" style={{ color: 'white' }}>Rating: {results.rating}​​​​​​</Typography>
+                                        </center>
                                     </CardContent>
                                 </CardActionArea>
                             </Card>
@@ -97,12 +99,14 @@ function Detail() {
     const info = useContext(DetailAnime);
     return (
         <Box sx={style}>
+            <center>
             <Typography id="modal-modal-anime" variant="h6" component="h2">
                 {info.judul}
             </Typography>
             <Typography id="modal-modal-deskripsi" sx={{ mt: 1 }}>
-                Perusahaan: {info.deskripsi.produksi}
+                Produksi: {info.deskripsi.produksi}
             </Typography>
+            </center>
             <Typography id="modal-modal-deskripsi" sx={{ mt: 1 }}>
                 Sinopsis: {info.deskripsi.sinopsis}
             </Typography>
