@@ -8,16 +8,13 @@ export default function App() {
     <BrowserRouter>
       <header>
         <div className="title">
-          <p>Kelompok 27</p>
-        </div>
-        <nav>
           <Link className="text" to="/Home">
             Homeㅤ
           </Link>
           <Link className="text" to="/Anime">
             Daftar Anime
           </Link>
-        </nav>
+        </div>
       </header>
       <Switch>
         <Route exact path="/" component={Home} />
