@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import Home from "./Component/Home";
+import Anime from "./Component/Anime";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <BrowserRouter>
+      <header>
+        <div className="title">
+          <p>Kelompok 27</p>
+        </div>
+        <nav>
+          <Link className="text" to="/Home">
+            Homeㅤ
+          </Link>
+          <Link className="text" to="/Anime">
+            Daftar Anime
+          </Link>
+        </nav>
       </header>
-    </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/Home" exact component={Home} />
+        <Route path="/Anime" exact component={Anime} />
+      </Switch>
+    </BrowserRouter>
   );
 }
-
-export default App;
